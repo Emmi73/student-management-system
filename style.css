@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: linear-gradient(24deg, rgb(3, 9, 2) 0%, rgb(5, 31, 0) 50%, rgb(0, 61, 11) 100%);
+  color: rgb(216, 216, 216);
+  height: 58rem;
+}
+
+main {
+  background-color: rgb(4, 68, 4);
+  border: 2px;
+  border-color: aliceblue;
+  margin: 100px;
+  height: 200px;
+  width: 500px;
+}
