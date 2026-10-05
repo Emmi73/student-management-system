@@ -3,7 +3,13 @@
 ?>
 
 <div class="main">
+  <div id="auth-title">Register</div>
   <form>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam neque harum dolore eum libero odit, corporis dolorem architecto, veniam maiores fugit molestias! Iure necessitatibus deleniti itaque deserunt quia tempora alias.
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <input type="submit" value="Register">
   </form>
+  <div id="auth-footer">If you have an account, <a href="login.php">Login</a></div>
 </div>

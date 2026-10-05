@@ -5,7 +5,7 @@ body {
   height: 58rem;
 }
 
-main {
+.main {
   background-color: rgb(4, 68, 4);
   border: 2px;
   border-color: aliceblue;
