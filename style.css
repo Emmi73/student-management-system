@@ -1,15 +1,22 @@
 body {
   margin: 0;
-  background: linear-gradient(24deg, rgb(3, 9, 2) 0%, rgb(5, 31, 0) 50%, rgb(0, 61, 11) 100%);
+  background: rgb(0, 0, 0);
   color: rgb(216, 216, 216);
   height: 58rem;
 }
 
+header {
+  background-color: rgb(67, 67, 67);
+  padding: 10px;
+  text-align: center;
+}
+
 .main {
-  background-color: rgb(4, 68, 4);
+  background-color: rgb(67, 67, 67);
   border: 2px;
   border-color: aliceblue;
-  margin: 100px;
+  margin: 10px;
   height: 200px;
   width: 500px;
+  padding: 10px;
 }
